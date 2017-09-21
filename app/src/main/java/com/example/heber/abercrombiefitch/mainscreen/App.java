@@ -15,7 +15,7 @@ public class App extends Application {
         super.onCreate();
         mNetComponent = DaggerNetComponent.builder()
                 .appModule(new AppModule(this))
-                .netModule(new NetModule("http://jsonplaceholder.typicode.com/"))
+                .netModule(new NetModule("https://www.abercrombie.com/anf/nativeapp/qa/codetest/codeTest_exploreData.json"))
                 .build();
     }
 
