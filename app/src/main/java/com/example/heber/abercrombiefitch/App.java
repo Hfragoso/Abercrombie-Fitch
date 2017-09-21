@@ -1,4 +1,4 @@
-package com.example.heber.abercrombiefitch.mainscreen;
+package com.example.heber.abercrombiefitch;
 
 import android.app.Application;
 
@@ -15,7 +15,7 @@ public class App extends Application {
         super.onCreate();
         mNetComponent = DaggerNetComponent.builder()
                 .appModule(new AppModule(this))
-                .netModule(new NetModule("https://www.abercrombie.com/anf/nativeapp/qa/codetest/codeTest_exploreData.json"))
+                .netModule(new NetModule("https://www.abercrombie.com/anf/nativeapp/qa/codetest/"))
                 .build();
     }
 

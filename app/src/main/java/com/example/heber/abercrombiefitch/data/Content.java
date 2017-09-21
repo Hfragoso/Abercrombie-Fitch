@@ -1,5 +1,5 @@
 
-package com.example.heber.abercrombiefitch.util;
+package com.example.heber.abercrombiefitch.data;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

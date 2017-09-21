@@ -1,5 +1,5 @@
 
-package com.example.heber.abercrombiefitch.util;
+package com.example.heber.abercrombiefitch.data;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -73,5 +73,6 @@ public class PromotionList {
     public void setBottomDescription(String bottomDescription) {
         this.bottomDescription = bottomDescription;
     }
+
 
 }
