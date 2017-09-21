@@ -2,6 +2,7 @@ package com.example.heber.abercrombiefitch.mainscreen;
 
 import android.app.Application;
 
+import com.example.heber.abercrombiefitch.data.component.DaggerNetComponent;
 import com.example.heber.abercrombiefitch.data.component.NetComponent;
 import com.example.heber.abercrombiefitch.data.module.AppModule;
 import com.example.heber.abercrombiefitch.data.module.NetModule;
